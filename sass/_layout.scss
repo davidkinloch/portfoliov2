@@ -3,11 +3,13 @@ body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
 
+img {
+	width : 100%;
+	height: auto;
+}
+
 .wrapper {
-    width: 90%;
-    margin: 0 5%;
 	@include mq(tablet) {
-        width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
 	}
 }

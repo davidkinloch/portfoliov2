@@ -38,7 +38,8 @@ module.exports = function(grunt) {
             dist: {
                 options: {
                     sourcemap: false,
-                    style: 'compressed'
+                    style: 'compressed',
+                    require: 'susy'
                 },
                 files: {
                     'css/main.css' : 'sass/main.scss'

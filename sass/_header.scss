@@ -1,0 +1,41 @@
+.header-container {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+#logo {
+	width: 60px;
+	height: 60px;
+	background: #1abc9c;
+	display: inline-block;
+	float: left;
+}
+
+.nav-toggle {
+	display: none;
+}
+
+.nav-primary {
+	width: calc(100% - 60px);
+	float: left;
+	background: #ecf0f1;
+	height: 60px;
+	&__menu {
+		width: 100%;
+		height: 100%;
+		display: table;
+	}
+	&__list {
+		width: 33.3%;
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+		border-right: 1px solid #95a5a6;
+		.text {
+			display: none;
+		}
+	}
+}
