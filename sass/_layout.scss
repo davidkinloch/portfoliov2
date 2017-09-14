@@ -1,6 +1,7 @@
 
 body {
-    font: 16px/1.4 Helvetica, Helvetica Neue, Arial;
+    font: 16px/1.4 $font-family-sans-serif;
+    background: #fFF;
 }
 
 img {
@@ -11,5 +12,43 @@ img {
 .wrapper {
 	@include mq(tablet) {
         margin: 0 auto;
+	}
+	&--skinny {
+		max-width: 1296px;
+		margin: auto;
+		padding: 5vw;
+		background: #F4F4F4;
+	
+		@include mq(wide) {
+			padding: 0;
+		}
+	}
+}
+
+.section {
+	width: 100%;
+}
+
+.main {
+	@include container;
+	width: 100%;
+}
+
+.section-secondary {
+	@include mq(desktop) {
+		@include span(6 of 12);
+	}
+
+}
+
+.section-primary {
+	@include mq(desktop) {
+		@include span(12);
+	}
+}
+
+.section-tertiary {
+	@include mq(desktop) {
+		@include span(6 of 12);
 	}
 }

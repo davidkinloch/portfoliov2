@@ -1,9 +1,6 @@
 .header-container {
-	width: 100%;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	z-index: 9999;
+	position:relative;
+	z-index: 10;
 }
 
 #logo {
@@ -15,27 +12,322 @@
 }
 
 .nav-toggle {
-	display: none;
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #ecf0f1;
+	color: $teal-700;
+	text-align: center;
+	line-height: 60px;
+	margin: 0 auto;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	box-shadow: (0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2));
+	outline: 0;
+	z-index: 9999;
+  	overflow: hidden;
+  	font-size: 0;
+  	text-indent: -9999px;
+  	cursor: pointer;
+  	transition: background 0.3s, box-shadow 0.3s;
+  	@include mq(tablet) {
+  		width: 60px;
+		height: 60px;
+		top: 20px;
+		left: 20px;
+		right: auto;
+  	}
+  	&:hover {
+  		box-shadow: (0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2));
+  	}
+	span {
+		display: block;
+	  	position: absolute;
+	  	top: 20px;
+	  	left: 12px;
+	  	right: 12px;
+	  	height: 2px;
+	  	background: $teal-300;
+	  	transition: background 0s 0.3s;
+	  	@include mq(tablet) {
+			top: 30px;
+	  		left: 18px;
+	  		right: 18px;
+	  	}
+	  	&:before, &:after {
+	  		position: absolute;
+			display: block;
+			left: 0;
+			width: 100%;
+			height: 2px;
+			background-color: #fff;
+			content: "";
+			transition-duration: 0.3s, 0.3s;
+			transition-delay: 0.3s, 0s;
+			transition-property: top, transform;
+			background: $teal-300;
+	  	}
+	  	&:before {
+	  		top:-6px;
+	  		@include mq(tablet) {
+				top: -8px;
+	  		}
+	  	}
+	  	&:after {
+			bottom: -6px;
+			background: $teal-300;
+	   		transition-property: bottom, transform;
+	   		@include mq(tablet) {
+				bottom: -8px;
+	   		}
+	  	}
+	}
+
+}
+
+.active {
+	.nav-toggle {
+		span {
+		  background: none;
+		}
+
+		span::before {
+		  top: 0;
+		  transform: rotate(45deg);
+		}
+
+		span::after {
+		  bottom: 0;
+		  transform: rotate(-45deg);
+		}
+
+		span::before,
+		span::after {
+		  transition-delay: 0s, 0.2s;
+		}
+	}
+}
+
+.work, .swipe, .swipe-left, .swipe-right {
+	.nav-toggle {
+		span {
+		  transform: rotate(180deg);
+		  transition: transform 0.3s;
+		}
+
+		span::before,
+		span::after {
+		  width: 50%;
+		}
+
+		span::before {
+		  top: 0px;
+		  transform: translateX(10px) translateY(2px) rotate(-45deg);
+		  transition: transform 0.3s, width 0.3s, top 0.3s;
+		  @include mq(tablet) {
+				transform: translateX(14px) translateY(4px) rotate(-45deg);
+		  }
+		}
+
+		span::after {
+		  bottom: 0;
+		  transform: translateX(10px) translateY(-2px) rotate(45deg);
+		  transition: transform 0.3s, width 0.3s, bottom 0.3s;
+		  @include mq(tablet) {
+		  	transform: translateX(14px) translateY(-4px) rotate(45deg);
+		  }
+		}
+	}
+	.active {
+		.nav-toggle {
+			span {
+				background: $teal-300;
+			  transform: rotate(0deg);
+			}
+
+			span::before {
+			  top: -8px;
+			  width: 100%;
+			  transform: translateX(0px) translateY(0px) rotate(0deg);
+			}
+
+			span::after {
+			  bottom: -8px;
+			  width: 100%;
+			  transform: translateX(0px) translateY(0px) rotate(0deg);
+			}
+
+			span::before,
+			span::after {
+			  transition-delay: 0s, 0.2s;
+			}
+		}
+	}
+}
+
+.work.swipe-left {
+	.nav-toggle {
+		span {
+			background: $teal-300;
+		  transform: rotate(0deg);
+		}
+
+		span::before {
+		  top: -8px;
+		  width: 100%;
+		  transform: translateX(0px) translateY(0px) rotate(0deg);
+		}
+
+		span::after {
+		  bottom: -8px;
+		  width: 100%;
+		  transform: translateX(0px) translateY(0px) rotate(0deg);
+		}
+
+		span::before,
+		span::after {
+		  transition-delay: 0s, 0.2s;
+		}
+	}
 }
 
 .nav-primary {
-	width: calc(100% - 60px);
+	width: 40px;
 	float: left;
-	background: #ecf0f1;
-	height: 60px;
+	position: fixed;
+	top: 66px;
+	left: -100%;
+	transition: left .01s;
+	transition-delay: .61s;
+	@include mq(tablet) {
+		width: 60px;
+		top: 100px;
+	}
 	&__menu {
-		width: 100%;
+		width: 40px;
 		height: 100%;
-		display: table;
+		@include mq(tablet) {
+			width: 60px;
+		}	
 	}
 	&__list {
 		width: 33.3%;
-		display: table-cell;
 		text-align: center;
 		vertical-align: middle;
-		border-right: 1px solid #95a5a6;
+		margin-bottom: 20px;
+		//border-right: 1px solid #95a5a6;
+		&:nth-child(1) {
+			.nav-primary__link {
+				transition-delay: .1s;
+				color: $teal-300;
+	    	//	transition: color .3s ease-in 0s, width .15s ease-in-out 0s;
+		    	@include mq(tablet) {
+		    		&:hover {
+				    	color: $teal-700;
+				    }
+			    }
+	    	}
+	    }
+		&:nth-child(2) {
+			.nav-primary__link {
+				transition-delay: .2s;
+				color: $teal-300;
+			//	transition: color .3s ease-in 0s, width .15s ease-in-out 0s;
+				@include mq(tablet) {
+					&:hover {
+			    		color: $teal-700;
+			   		}
+			   	}
+	    	}
+	    }
+	    &:nth-child(3) {
+			margin-bottom: 0;
+			.nav-primary__link {
+				transition-delay: .3s;
+				color: $teal-300;
+			//	transition: color .3s ease-in 0s, width .15s ease-in-out 0s;
+				@include mq(tablet) {
+					&:hover {
+				    	color: $teal-700;
+				    }
+				}
+	    	}
+	    }
+	}
+	&__link {
+		display: block;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background: #ecf0f1;
+		color: #555;
+		text-align: center;
+		line-height: 44px;
+		margin: 0 3px;
+		outline: 0;
+	    position: relative;
+	    overflow: hidden;
+	    transition: .3s;
+	    opacity: 0;
+	    transform: scaleY(0.4) scaleX(0.4) translateY(-40px) translateX(0px); 
+	   	box-shadow: (0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2));
+		visibility: hidden;
+		@include mq(tablet) {
+			width: 54px;
+			height: 54px;
+			border-radius: 27px;
+			text-align: left;
+			line-height: 54px;
+			padding-left: 19px;
+		}
 		.text {
-			display: none;
+			opacity: 0;
+			padding-left: 20px;
+			transition: opacity .3s ease-in .1s;
+		}
+		@include mq(tablet) {
+			&:hover {
+		  		box-shadow: (0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2));
+		  		width: 160px;
+		  		.text {
+		  			opacity: 1;
+		  		}
+		  	}
 		}
 	}
+}
+
+.active .nav-primary {
+	left: calc(100% - 53px);
+	transition-delay: 0s;
+	@include mq(tablet) {
+		left: 20px;
+	}
+	&__link {
+		opacity: 1;
+		transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px);
+		visibility: visible;
+	}
+	
+	&__list {
+		&:nth-child(1) {
+			.nav-primary__link {
+				transition-delay: .1s;
+	    	}
+	    }
+		&:nth-child(2) {
+			.nav-primary__link {
+				transition-delay: .2s;
+	    	}
+	    }
+	    &:nth-child(3) {
+			.nav-primary__link {
+				transition-delay: .3s;
+	    	}
+	    }
+	}
+
+	
 }

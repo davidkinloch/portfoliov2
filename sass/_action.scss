@@ -1,0 +1,16 @@
+.switch {
+	display: block;
+	border-radius: 50%;
+    border: 5px solid #FFF;
+    width: 54px;
+    height: 54px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFF;
+    background: $teal;
+    cursor: pointer;
+    @include transition(all .4s ease-in);
+    &:hover, &.active {
+    	background: $teal-700;
+    }
+}

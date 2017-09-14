@@ -1,0 +1,13 @@
+.tags {
+	font-family: $font-family-sans-serif;
+	font-weight: 300;
+	font-size: 12rem;
+	&__item {
+		text-align: left;
+		float: left;
+		&:after {
+			content:"/";
+			padding-right: 5px;
+		}
+	}
+}

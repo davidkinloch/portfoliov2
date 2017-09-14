@@ -1,0 +1,208 @@
+.section {
+	position: relative;
+	float: left;
+
+	&__figure {
+		position: relative;
+		display: block;
+		overflow: hidden;
+	}
+	&__image {
+		@include transition (all .3s ease-in);
+	}
+	&__imageholder {
+		width: 100%;
+		background-size: cover;
+		background-position: center center;
+		background-attachment: scroll;
+		height: calc(100vw * .33);
+		margin-bottom: 2.5vw;
+		@include transition (all .3s ease-in-out);
+		@include mq(desktop) {
+			height: calc(100vw * .40);
+		}
+
+	}
+	&__figure:before {
+		z-index: 1;
+		background: blue;
+		content: "";
+		position: absolute;
+		display: block;
+		bottom: 0;
+		left: -116%;
+		width: 100%;
+		height: 100%;
+		@include transform (skew(30deg));
+		@include transition (all .3s ease-in .1s);
+		opacity: .6;
+	}
+	&__figcaption:before {
+		content: "";
+		position: absolute;
+		display: block;
+		bottom: calc(14vw - 100%);
+		left: -12%;
+		width: 100%;
+		height: 100%;
+		@include transform (skew(30deg));
+		@include transition (all .3s ease-in);
+		@include mq(tablet) {
+			bottom: calc(100px - 100%);
+		}
+	}
+	&__figcaption {
+		position: absolute;
+		bottom: 0%;
+		width: 100%;
+		height: 100%;
+		color: #FFF;
+		font-size: 30rem;
+		letter-spacing: 1px;
+	}
+	&__figcaption:after {
+		content: "";
+		position:absolute;
+		bottom: 0;
+		left: 116%;
+		width: 100%;
+		height: 100%;
+		@include transform (skew(30deg));
+		@include transition (all .3s ease-in .1s);
+		opacity: .6;
+	}
+	&__text {
+		position: absolute;
+		left: 20px;
+		bottom: 2vw;
+		width: 74%;
+		@include transition (all .3s ease-in);
+		@include mq(tablet) {
+			bottom: 20px;
+		}
+		@include mq(wide) {
+			left: 40px;
+		}
+	}
+	&__title {	
+		@include transition (all .3s ease-in .05s);
+		font-family: $font-family-serif;
+		font-size:5.8vw;
+		@include mq(tablet) {
+			font-size: 36rem;
+		}
+	}
+	&__subtitle {
+		@include transition (all .27s ease-in .08s);
+		margin-bottom: .6vw;
+		font-size: 3vw;
+		font-family: $font-family-sans-serif;
+      	text-transform: none;
+		@include mq(tablet) {
+			font-size: 20rem;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.section__figure:hover {
+	&:before {
+		bottom: 0;
+		left: -112%;
+	}
+	.section__image {
+		@include transform (scale(1.1,1.1));
+	}
+	.section__figcaption:before {
+		bottom: 0;
+		left: -12%;
+	}
+	.section__text {
+		//bottom: 20px;
+	}
+	.section__title {
+		margin-left: 20px;
+	}
+	.section__subtitle {
+		margin-left: 5px;
+	}
+	.section__figcaption:after {
+		left: 88%;
+	} 
+}
+
+.section--orange {
+	.section__figcaption:before {
+		background: $orange;
+	}
+	.section__figcaption:after, .section__figure:before {
+		background: $orange-300;
+	}
+}
+
+.section--teal {
+	.section__figcaption:before {
+		background: $teal;
+	}
+	.section__figcaption:after, .section__figure:before  {
+		background: $teal-300;
+	}
+}
+
+.section--red {
+	.section__figcaption:before {
+		background: $red;
+	}
+	.section__figcaption:after, .section__figure:before  {
+		background: $red-300;
+	}
+}
+
+.section--yellow {
+	.section__text {
+		color: #555;
+	}
+	.section__figcaption:before {
+		background: $yellow;
+	}
+	.section__figcaption:after, .section__figure:before  {
+		background: $yellow-300;
+	}
+}
+
+.section--green {
+	.section__figcaption:before {
+		background: $green;
+	}
+	.section__figcaption:after, .section__figure:before  {
+		background: $green-300;
+	}
+	.section__text {
+		width: 86%;
+	}
+	.section__title {
+		font-size:5vw;
+		@include mq(mobile-big) {
+			font-size: 30rem;
+		}
+	}
+
+}
+
+.section--cyan {
+	.section__figcaption:before {
+		background: $cyan;
+	}
+	.section__figcaption:after, .section__figure:before {
+		background: $cyan-300;
+	}
+}
+
+.section--blue {
+	.section__figcaption:before {
+		background: $blue;
+	}
+	.section__figcaption:after, .section__figure:before {
+		background: $blue-300;
+	}
+}

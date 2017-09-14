@@ -1,0 +1,14 @@
+.section-contact {
+	text-align: center;
+	padding: 92rem 26px;
+	@include span(12);
+	.section__title {
+		font-family: $font-family-sans-serif;
+      	text-transform: none;
+		margin-bottom: 72rem;
+		font-size: 5.8vw;
+		@include mq(mobile-big) {
+			font-size: 36rem;
+		}
+	}
+}

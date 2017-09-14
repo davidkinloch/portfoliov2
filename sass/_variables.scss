@@ -13,6 +13,37 @@ $brand-info:            #5bc0de;
 $brand-warning:         #f0ad4e;
 $brand-danger:          #d9534f;
 
+$orange:                #FF7000;
+$orange-300:            #FFB74D;
+$orange-700:            rgba(230,74,25 ,1);
+
+$teal:                  #009688;
+$teal-300:              #4DB6AC;
+$teal-700:              #00796B;
+
+$red:                   rgba(244,67,54,1);
+$red-300:               rgba(229,115,115 ,1);
+$red-700:               rgba(211,47,47 ,1);
+
+$amber:                rgba(255,193,7,1);
+$amber-300:            rgba(255,213,79 ,1);
+$amber-700:            rgba(255,160,0 ,1);
+
+$yellow:                rgba(255,235,59,1);
+$yellow-300:            rgba(255,241,118 ,1);
+$yellow-700:            rgba(251,192,45 ,1);
+
+$green:                 rgba(139,195,74,1);
+$green-300:             rgba(174,213,129 ,1);
+$green-700:             rgba(104,159,56 ,1);
+
+$cyan:                  rgba(0,188,212,1);
+$cyan-300:              rgba(77,208,225 ,1);
+$cyan-700:              rgba(0,151,167 ,1);
+
+$blue:                  rgba(33,150,243,1);
+$blue-300:              rgba(100,181,246 ,1);
+$blue-700:              rgba(25,118,210 ,1);
 
 //== Scaffolding
 //
@@ -33,44 +64,28 @@ $link-hover-color:      darken($link-color, 15%);
 //
 //## Font, line-height, and color for body text, headings, and more.
 @font-face {
-    font-family: 'quicksandbold';
-    src: url('../fonts/quicksand-bold-webfont.eot');
-    src: url('../fonts/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/quicksand-bold-webfont.woff') format('woff'),
-         url('../fonts/quicksand-bold-webfont.ttf') format('truetype'),
-         url('../fonts/quicksand-bold-webfont.svg#quicksandbold') format('svg');
+    font-family: 'ProximaNovaRegular';
+    src: url('../fonts/proximanova-regular-webfont.eot');
+    src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+         url('../fonts/roximanova-regular-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-regular-webfont.svg#ProximaNovaRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'quicksandlight';
-    src: url('../fonts/quicksand-light-webfont.eot');
-    src: url('../fonts/quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/quicksand-light-webfont.woff') format('woff'),
-         url('../fonts/quicksand-light-webfont.ttf') format('truetype'),
-         url('../fonts/quicksand-light-webfont.svg#quicksandlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'quicksandregular';
-    src: url('../fonts/quicksand-regular-webfont.eot');
-    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/quicksand-regular-webfont.woff') format('woff'),
-         url('../fonts/quicksand-regular-webfont.ttf') format('truetype'),
-         url('../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'Gotham-book';
+  src: local('☺'), url('../fonts/gotham-book.woff') format('woff'), url('../fonts/gotham-book.ttf') format('truetype'), url('../fonts/gotham-book.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
-$font-family-sans-serif:  "quicksandLight", Helvetica, Arial, sans-serif;
-$font-family-serif:       Georgia, "Times New Roman", Times, serif;
+
+$font-family-sans-serif:  "Gotham-book", Helvetica, Arial, sans-serif;
+$font-family-serif:       'Abril Fatface', cursive;
 
 $font-size-base:          16px;
 $font-size-large:         ceil(($font-size-base * 1.25)); // ~18px
@@ -92,7 +107,8 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
 $susy: (
   columns: 12,
-  container: 1120px,
+  container: 100%,
+  gutters: 0,
   global-box-sizing: border-box 
   );
 

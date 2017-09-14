@@ -9,8 +9,15 @@ textarea {
 }
 
 html {
-    font-size: 1em;
+    font-size: 1px;
     line-height: 1.4;
+    letter-spacing: 1px;
+        text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
 
 ::-moz-selection {

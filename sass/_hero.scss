@@ -1,18 +1,73 @@
-.section-hero{
+.section-hero {
   background-image:url(https://chrisaam.files.wordpress.com/2015/03/wallpaper-2846361.jpg);
   background-position: center center;
   background-size:cover;
   position:relative;
   height:100vh;
+  width: 100%;
   &__inner {
   	position:absolute;
-	top:50%;
-	text-align:center;
-	width:100%;
-	color:#fff;
-	font-size:36px;
-	-ms-transform: translate(0,-50%); /* IE 9 */
-	-webkit-transform: translate(0,-50%); /* Safari */
-	transform: translate(0,-50%);  
-	}
+  	bottom: 16vh;
+    right: 5vw;
+    text-align:center;
+  	width:100%;
+    //padding: 0 20px;
+  	color:#fff;
+    @include mq(tablet) {
+      bottom: 8vw;
+    }
+  }
+  &__title {
+    font-family: $font-family-serif;
+    font-size: 5.8vw;
+    text-align: right;
+    @include mq(mobile-big) {
+      font-size: 36rem;
+    }
+    .focus, .role {
+      font-family: $font-family-sans-serif;
+      text-transform: none;
+      font-size: 4vw;
+      @include mq(mobile-big) {
+        font-size: 26rem;
+      }
+    } 
+  }
+  &__down {
+    display: none;
+    @include mq(tablet) {
+      display: block;
+      position: absolute;
+      left: 20px;
+      bottom: 8vw;
+      text-align: center;
+      font-size: 40px;
+      height: 30px;
+      line-height: 1;
+      color: #EFEFEF;
+      opacity: 0;
+      -webkit-transition: (opacity .3s ease-in 4.7s, transform .3s ease-in 4.7s, left .3s ease-in-out);
+      -moz-transition: (opacity .3s ease-in 4.7s, transform .3s ease-in 4.7s, left .3s ease-in-out);
+      transition: (opacity .3s ease-in 4.7s, transform .3s ease-in 4.7s, left .3s ease-in-out);
+      @include transform (translate(0px, -50px));
+      &.active {
+        opacity: 1;
+        @include transform (translate(0px, 0px));
+      }
+    }
+    @include mq(desktop) {
+      font-size: 60px;
+      left: 50%;
+      bottom: 2.5vw;
+    }
+  }
+}
+
+.polyman {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  left: 0;
+  
 }
