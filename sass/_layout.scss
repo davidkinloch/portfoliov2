@@ -25,30 +25,37 @@ img {
 	}
 }
 
+.main-container {
+	width: 100%;
+}
+
 .section {
 	width: 100%;
 }
 
 .main {
-	@include container;
+	//@include container;
 	width: 100%;
 }
 
 .section-secondary {
 	@include mq(desktop) {
-		@include span(6 of 12);
+	//	@include span(6 of 12);
+		width: 50%;
 	}
 
 }
 
 .section-primary {
 	@include mq(desktop) {
-		@include span(12);
+	//	@include span(12);
+		width: 100%;
 	}
 }
 
 .section-tertiary {
 	@include mq(desktop) {
-		@include span(6 of 12);
+	//	@include span(6 of 12);
+		width: 50%;
 	}
 }

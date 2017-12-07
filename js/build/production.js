@@ -78,7 +78,7 @@ $(function() {
    // $(".main-container.clone").load(myUrl);
     setTimeout(function() {
       document.location.href = url;
-    }, 1000);
+    }, 1500);
     e.preventDefault();
   });
 
@@ -91,7 +91,7 @@ $(function() {
 
     setTimeout(function() {
       document.location.href = url;
-    }, 1000);
+    }, 1500);
     e.preventDefault();
   });
 
@@ -105,7 +105,7 @@ $(function() {
 
     setTimeout(function() {
       document.location.href = url;
-    }, 1000);
+    }, 1500);
     e.preventDefault();
   });
 
@@ -127,7 +127,7 @@ $(function() {
 
     setTimeout(function() {
       document.location.href = url;
-    }, 1000);
+    }, 1500);
     e.preventDefault();
   });
 
@@ -140,7 +140,7 @@ $(function() {
 
     setTimeout(function() {
       document.location.href = url;
-    }, 1000);
+    }, 1500);
     e.preventDefault();
   });  
 });
@@ -177,7 +177,7 @@ $( ".section__figure", document.body ).click(function( e) {
   $( this ).parent.animate({
     opacity: 0.25,
     left: "+ offset.left +"
-  }, 5000, function() {
+  }, 1500, function() {
     // Animation complete.
   });
 });

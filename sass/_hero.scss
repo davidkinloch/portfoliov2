@@ -1,7 +1,4 @@
 .section-hero {
-  background-image:url(https://chrisaam.files.wordpress.com/2015/03/wallpaper-2846361.jpg);
-  background-position: center center;
-  background-size:cover;
   position:relative;
   height:100vh;
   width: 100%;
@@ -68,6 +65,9 @@
   width: 100%;
   height: 100%;
   background: #000;
+  top: 0;
   left: 0;
-  
+  .path {
+    opacity: 0;
+  }
 }

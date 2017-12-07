@@ -9,13 +9,15 @@
 	@include transform (translate(0,100%));
 	@include transition (all .3s ease-in-out 0s);
 	&__list {
+		float: left;
+		width: 100%;
 		height: 60px;
-		@include container;
 		background: #ecf0f1;
 		box-shadow: 0 -2px 5px rgba(0,0,0,.26);
 	}
 	&__item {
-		@include span (4 of 12);
+		float: left;
+		width: 33%;
 		text-align: center;
 		position: relative;
 		top: 50%;
