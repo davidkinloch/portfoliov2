@@ -34,7 +34,7 @@
                             </div>
 
                              <div class="section-header__intro">
-                                <img src="404.gif" alt="404 gif animation">
+                                <img src="/404.gif" alt="404 gif animation">
                             </div>
                         </div>
                     </section>
