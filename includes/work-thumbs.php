@@ -1,6 +1,6 @@
 <ul class="work-nav__thumbs">
     <li class="work-nav__project yellow">
-        <a class="work-nav__projectlink" href="cat-footwear.php">
+        <a class="work-nav__projectlink" href="cat-footwear">
            <div class="work-nav__image-wrap">
                 <img class="section__image" src="assets/build/cat/cat-home.jpg" alt="CAT Footwear" />
             </div>
@@ -11,7 +11,7 @@
         </a>
     </li>
     <li class="work-nav__project teal">
-        <a class="work-nav__projectlink" href="links-of-london.php">
+        <a class="work-nav__projectlink" href="links-of-london">
             <div class="work-nav__image-wrap">
                 <img class="section__image" src="assets/build/links/links-home.jpg" alt="Links of London" />
             </div>
@@ -22,7 +22,7 @@
         </a>
     </li>
     <li class="work-nav__project orange">
-        <a class="work-nav__projectlink" href="follifollie.php">
+        <a class="work-nav__projectlink" href="follifollie">
            <div class="work-nav__image-wrap">
                 <img class="section__image" src="assets/build/ff/ff-life-thin.jpg" alt="Folli Follie" />
             </div>
@@ -33,7 +33,7 @@
         </a>
     </li>
     <li class="work-nav__project blue">
-        <a class="work-nav__projectlink" href="mercedes-benz.php">
+        <a class="work-nav__projectlink" href="mercedes-benz">
             <div class="work-nav__image-wrap">           
                 <img class="section__image" src="assets/build/mb/mercedesbenz-home.jpg" alt="Mercedes-Benz" />
             </div>

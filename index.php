@@ -483,7 +483,7 @@
                         </section>
                         <section id="work" class="section section--yellow section-secondary">
                             <div class="section__block">
-                                <a class="section__figure" href="cat-footwear.php">
+                                <a class="section__figure" href="cat-footwear">
                                     <img class="section__image" src="assets/build/cat/cat-home.jpg" alt="CAT Footwear Colorado Boot" />
                                     <div class="section__figcaption">
                                         <div class="section__text">
@@ -496,7 +496,7 @@
                         </section>
                         <section class="section section--teal section-secondary">
                             <div class="section__block">
-                                <a class="section__figure" href="links-of-london.php">
+                                <a class="section__figure" href="links-of-london">
                                     <img class="section__image" src="assets/build/links/links-home.jpg" alt="Links Of London Lifestyle Shot" />
                                     <div class="section__figcaption">
                                         <div class="section__text">
@@ -509,7 +509,7 @@
                         </section>
                         <section class="section section--orange section-secondary">
                             <div class="section__block">
-                                <a class="section__figure" href="follifollie.php">
+                                <a class="section__figure" href="follifollie">
                                     <img class="section__image" src="assets/build/ff/ff-life-thin.jpg" alt="Folli Follie Lifestyle Shot" />
                                     <div class="section__figcaption">
                                         <div class="section__text">
@@ -522,7 +522,7 @@
                         </section>
                         <section class="section section--blue section-secondary">
                             <div class="section__block">
-                                <a class="section__figure" href="mercedes-benz.php">
+                                <a class="section__figure" href="mercedes-benz">
                                     <img class="section__image" src="assets/build/mb/mercedesbenz-home.jpg" alt="Mercedes-Benz" />
                                     <div class="section__figcaption">
                                         <div class="section__text">

@@ -22,7 +22,7 @@
         <div class="work-nav">
             <ul class="work-nav__list">
                 <li class="work-nav__item">
-                    <a href="cat-footwear.php" class="work-nav__link work-nav__link--prev">
+                    <a href="cat-footwear" class="work-nav__link work-nav__link--prev">
                         <i class="fa fa-angle-left"></i> 
                         <span class="text">Previous</span>
                     </a>
@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li class="work-nav__item">
-                    <a href="follifollie.php" class="work-nav__link work-nav__link--next">
+                    <a href="follifollie" class="work-nav__link work-nav__link--next">
                         <span class="text">Next</span>
                         <i class="fa fa-angle-right"></i> 
                     </a>
