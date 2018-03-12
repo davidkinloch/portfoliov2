@@ -11,18 +11,18 @@
 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/main.css" />
 
-<link rel="canonical" href="https://davidkinloch.com/" />
+<meta name="verify-v1" content="poxjCWv2Q9zou6XMGpSa4bC00fL+5h84OPpfUwzn05k=" />
 <link rel="publisher" href="+DavidKinloch"/>
 <meta property="og:locale" content="en_UK" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="David Kinloch UX Designer &amp; Developer" />
 <meta property="og:description" content="Experienced front-end developer and UX designer focusing on eCommerce, Magento &amp; Responsive Web App Design. Consulting larger teams on best practices, code quality, improving user experience & conversion rates." />
-<meta property="og:url" content="https://www.davidkinloch.com/" />
+<meta property="og:url" content="https://davidkinloch.com/" />
 <meta property="og:site_name" content="David Kinloch" />
-<meta property="og:image" content="/fav/android-chrome-384x384.png" />
+<meta property="og:image" content="https://davidkinloch.com/fav/android-chrome-384x384.png" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:description" content="Experienced front-end developer and UX designer focusing on eCommerce, Magento &amp; Responsive Web App Design. Consulting larger teams on best practices, code quality, improving user experience & conversion rates." />
 <meta name="twitter:title" content="David Kinloch UX Designer &amp; Developer" />
 <meta name="twitter:site" content="@DavidKinloch" />
-<meta name="twitter:image" content="/fav/android-chrome-384x384.png" />
+<meta name="twitter:image" content="https://davidkinloch.com/fav/android-chrome-384x384.png" />
 <meta name="twitter:creator" content="@DavidKinloch" />
