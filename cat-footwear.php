@@ -65,8 +65,8 @@
                             </div>
 
                              <div class="section-header__intro">
-                                <p>One of the most famous boots in the world had a 25th Annviersary and working with PD3 I helped create a website to celebrate.</p>
-                                <p>From intial repsonisive wireframing to frontend templates and a custom Woprdress theme with deployment to live.</p>
+                                <p>One of the most famous boots in the world had a 25th Annviersary, working with PD3, I helped create a website to celebrate.</p>
+                                <p>From initial responsive wireframing to frontend templates and a custom Woprdress theme with deployment to live.</p>
                            </div>
                         </div>
                     </section>

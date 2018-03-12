@@ -66,7 +66,7 @@
 
                              <div class="section-header__intro">
                                 <p>Working on an enterprise level Wordpress development for one of the world's greatest car manufacturers to showcase how they keep ahead in automotive technology and vehicle design.</p>
-                                <p>Pulling together the latest news and upsdates from the various North American campus' where the core research in new technology for car development is undertaken</p>
+                                <p>Pulling together the latest news and upsdates from the various North American campuses where the core research in new technology for car development is undertaken.</p>
                                 <p>Working alongisde Text100 on the frontend development &amp; Wordpress bespoke theme development.</p>
                            </div>
                         </div>
