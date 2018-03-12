@@ -8,6 +8,11 @@ RewriteRule ^(.*)$ $1.php
 
 ErrorDocument 404 /404.php
 
+# Redirect HTTP to HTTPS
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
