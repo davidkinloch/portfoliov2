@@ -27,7 +27,8 @@
                                 </h1>
                                 <ul class="section-header__list">
                                     <li class="section-header__item section-header__item--title"><strong>Try these:</strong></li>
-                                    <li class="section-header__item"><a href="/">Get to the homepage</a></li>
+                                    <li class="section-header__item"><a href="/">Get to the DK homepage</a></li>
+                                    <li class="section-header__item"><a href="/follifollie.php">See a piece of work</a></li>
                                     <li class="section-header__item"><a href="mailto:dkinloch@gmail.com">Email Me</a></li>
                                     <li class="section-header__item">or kill some time <a target="_blank" href="https://www.theguardian.com/lifeandstyle/series/blind-date">reading this...</a></li>
                                 </ul>
