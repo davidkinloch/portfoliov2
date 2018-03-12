@@ -22,7 +22,7 @@
         <div class="work-nav">
             <ul class="work-nav__list">
                 <li class="work-nav__item">
-                    <a href="links-of-london.php" class="work-nav__link work-nav__link--prev">
+                    <a href="links-of-london" class="work-nav__link work-nav__link--prev">
                         <i class="fa fa-angle-left"></i> 
                         <span class="text">Previous</span>
                     </a>
@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li class="work-nav__item">
-                    <a href="mercedes-benz.php" class="work-nav__link work-nav__link--next">
+                    <a href="mercedes-benz" class="work-nav__link work-nav__link--next">
                         <span class="text">Next</span>
                         <i class="fa fa-angle-right"></i> 
                     </a>
@@ -65,9 +65,9 @@
                             </div>
 
                              <div class="section-header__intro">
-                                <p>Folli Follie were really impressed with my web development for their sister company Links of London. So much so, Folli Follie asked me to do some work for them too. They wanted me to manage a smooth migration of the Links of London style across to their site.</p>
-                                <p>This made perfect sense for the Follie Follie website, as it meant they didn’t need an entire redesign of their brand. </p>
-                                <p>I created some mock-ups in Photoshop and once signed off at Folli Follie I migrated them across to some key front-end templates. These were then integrated into the live site.</p>
+                                <p>Folli Follie appreciated the UX work for their sister company Links of London, so much so, they asked me to do some work for them too. They wanted me to manage a smooth migration of the Links of London layouts across to their site.</p>
+                                <p>This made perfect sense for the Follie Follie website, as it meant they didn’t need an entire redesign of their brand.</p>
+                                <p>I created some mock-ups in Photoshop and once signed off I createed the key front-end templates. These were then integrated into the live site.</p>
                            </div>
                         </div>
                     </section>
