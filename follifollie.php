@@ -67,7 +67,7 @@
                              <div class="section-header__intro">
                                 <p>Folli Follie appreciated the UX work for their sister company Links of London, so much so, they asked me to do some work for them too. They wanted me to manage a smooth migration of the Links of London layouts across to their site.</p>
                                 <p>This made perfect sense for the Follie Follie website, as it meant they didn’t need an entire redesign of their brand.</p>
-                                <p>I created some mock-ups in Photoshop and once signed off I createed the key front-end templates. These were then integrated into the live site.</p>
+                                <p>I created some mock-ups in Photoshop and once signed off I created the key front-end templates. These were then integrated into the live site.</p>
                            </div>
                         </div>
                     </section>

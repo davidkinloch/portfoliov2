@@ -67,7 +67,7 @@
                              <div class="section-header__intro">
                                 <p>Briitsh jewellery brand Links of London approached me to be a consultant to improve the usability of their website and to increase their conversion rates.</p>
                                 <p>My first step was to rework their static designs. I added e-commerce features and revamped their user interface. By analysing and streamlining the UX I was able to make their conversion rates higher.</p>
-                                <p>I was also put in charge of quality checking front-end development from a third party development team. The results were faster loading speeds, improved semantics, increased in-page SEO and higher natural organic searche results.</p>
+                                <p>I was also put in charge of quality checking front-end development from a third party development team. The results were faster loading speeds, improved semantics, increased in-page SEO and higher natural organic search results.</p>
                            </div>
                         </div>
                     </section>
