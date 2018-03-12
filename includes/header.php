@@ -26,3 +26,13 @@
 <meta name="twitter:site" content="@DavidKinloch" />
 <meta name="twitter:image" content="https://davidkinloch.com/fav/android-chrome-384x384.png" />
 <meta name="twitter:creator" content="@DavidKinloch" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-6880596-3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-6880596-3');
+</script>
