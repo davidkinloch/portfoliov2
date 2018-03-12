@@ -87,25 +87,25 @@
 
                     <div class="section section-primary animation">
                         <div class="section__block">
-                            <img class="section__image" src="assets/build/links/Links-02.png" alt="Links Of London Screenshot 03" />
+                            <img class="section__image" src="assets/build/links/links-02.png" alt="Links Of London Screenshot 03" />
                         </div>
                     </div>
 
                     <div class="section section-primary animation">
                         <div class="section__block">
-                            <img class="section__image" src="assets/build/links/Links03.png" alt="Links Of London Screenshot 03" />
+                            <img class="section__image" src="assets/build/links/links03.png" alt="Links Of London Screenshot 03" />
                         </div>
                     </div>
                     
                     <div class="section section-primary animation">
                         <div class="section__block">
-                            <img class="section__image section__image--full" src="assets/build/links/Links-05.jpg" alt="Links Of London Screenshot 05" />
+                            <img class="section__image section__image--full" src="assets/build/links/links-05.jpg" alt="Links Of London Screenshot 05" />
                         </div>
                     </div>
 
                     <div class="section section-primary animation">
                         <div class="section__block">
-                            <img class="section__image section__image--full" src="assets/build/links/Links-06.jpg" alt="Links Of London  Screenshot 06" />
+                            <img class="section__image section__image--full" src="assets/build/links/links-06.jpg" alt="Links Of London  Screenshot 06" />
                         </div>
                     </div>
 
