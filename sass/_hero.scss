@@ -18,6 +18,13 @@
     font-family: $font-family-serif;
     font-size: 5.8vw;
     text-align: right;
+    opacity: 0;
+    @include transform (translate(0px, -10px));
+    @include transition (all .3s ease-in 4.3s);
+    .active & {
+      opacity: 1;
+      @include transform (translate(0px, 0px));
+    }
     @include mq(mobile-big) {
       font-size: 36rem;
     }
@@ -25,6 +32,13 @@
       font-family: $font-family-sans-serif;
       text-transform: none;
       font-size: 4vw;
+      opacity: 0;
+      @include transform (translate(-10px, 0px));
+      @include transition (all .3s ease-in .3s);
+      .active & {
+        opacity: 1;
+        @include transform (translate(0px, 0px));
+      }
       @include mq(mobile-big) {
         font-size: 26rem;
       }

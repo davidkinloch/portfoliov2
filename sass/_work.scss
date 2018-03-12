@@ -1,6 +1,9 @@
 .work {
 	img {
 		margin-bottom: 8%;
+		&.section__image--full {
+			padding: 0 10%;
+		}
 	}
 	@include mq(tablet) {
 		.section-secondary {
@@ -47,7 +50,7 @@
 		@include transition (all .3s ease-in 1.1s);
 		@include transform (translate(-50px, 0px));
 	}
-	.wrapper--skinny .section {
+	.wrapper--skinny .section:first-child {
 		opacity: 0;
 		@include transition (all .3s ease-in 1.5s);
 		@include transform (translate(0px, 50px));
@@ -77,11 +80,11 @@
 			opacity: 1;
 			@include transform (translate(0,0));
 		}
-		.wrapper--skinny .section {
+		.wrapper--skinny .section:first-child {
 			opacity: 1;
 			@include transform (translate(0px, 0px));
 		}
-
+		
 	}
 
 }

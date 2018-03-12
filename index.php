@@ -5,16 +5,11 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>DK 2017</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="http://realfavicongenerator.net/">
-        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/main.css" />
-
+        <title>David Kinloch UX Designer &am; Developer</title>
+        <meta name="description" content="Experienced front-end developer and UX designer focusing on eCommerce, Magento &amp; Responsive Web App Design. Consulting larger teams on best practices, code quality, improving user experience & conversion rates.">
+        <?php include ('includes/header.php'); ?>
     </head>
     <body>
- 
         <div class="header-container">
             <header class="wrapper site-header">
                     <div class="report"></div>
@@ -22,41 +17,33 @@
                     <a href="#" class="nav-toggle" aria-hidden="false">
                         <span>Menu</span>
                     </a>  
-                    
                     <ul class="nav-primary__menu">
                         <li class="nav-primary__list">
-                            <a class="nav-primary__link" href="index.html#about">
+                            <a class="nav-primary__link" href="#about">
                                 <i class="fa fa-user"></i> 
                                 <span class="text">About</span>
                             </a>
                         </li>
                         <li class="nav-primary__list">
-                            <a class="nav-primary__link" href="index.html#work">
+                            <a class="nav-primary__link" href="#work">
                                 <i class="fa fa-desktop"></i> 
                                 <span class="text">Work</span>
                             </a>
                         </li><!-- end of parent item -->
                         <li class="nav-primary__list">
-                            <a class="nav-primary__link" href="index.html#contact">
+                            <a class="nav-primary__link" href="#contact">
                                 <i class="fa fa-comments"></i> 
                                 <span class="text">Contact</span>
                             </a>
                         </li>
-                        
                     </ul>
                 </nav><!--.site-navigation -->
-              
             </header>
         </div>
-    
-
-        
          <div class="main-container">
                 <div class="main">
                     <div class="wrapper">
                         <section class="section section-hero">
-                       
-                        
                             <svg  viewBox="0 0 355 680" version="1.1" xmlns="http://www.w3.org/2000/svg"  class="polyman">
                   
                                 <g id="blueyes" transform="translate(-316.000000, 0.000000)" fill-rule="nonzero">                            
@@ -489,17 +476,15 @@
                             <a href="#about" class="section-hero__down"><i class="fa fa-angle-down"></i></a>
                         </section>
                         <!-- end of hero -->
-                        
                         <section id="about" class="section section-primary section-about">
                             <div class="section-about__block">
                                <h2 class="section-about__text">Experienced <strong>front-end developer</strong> and <strong>UX designer</strong> focusing on <strong>eCommerce</strong>, <strong>Magento</strong> &amp; <strong>Responsive Web App Design</strong>. Consulting larger teams on <strong>best practices</strong>, <strong>code quality</strong>, <strong>improving user experience</strong> &amp; <strong>conversion rates</strong></h2>
                             </div>
                         </section>
-
                         <section id="work" class="section section--yellow section-secondary">
                             <div class="section__block">
-                                <a class="section__figure" href="work.html">
-                                    <img class="section__image" src="img/cat.jpg" alt="CAT Footwear" />
+                                <a class="section__figure" href="cat-footwear.php">
+                                    <img class="section__image" src="assets/build/cat/cat-home.jpg" alt="CAT Footwear Colorado Boot" />
                                     <div class="section__figcaption">
                                         <div class="section__text">
                                             <h3 class="section__subtitle">Iconic Footwear Brand</h3>
@@ -509,40 +494,10 @@
                                 </a>
                             </div>
                         </section>
-
-                        <section class="section section--orange section-secondary">
-                            <div class="section__block">
-                                <a class="section__figure" href="work.html">
-                                    <img class="section__image" src="assets/build/ff/ff-life-thin.jpg" alt="" />
-                                    <div class="section__figcaption">
-                                        <div class="section__text">
-                                            <h3 class="section__subtitle">European lifestyle brand</h3>
-                                            <h2 class="section__title">Follie Follie</h2>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </section>
-
-                        <section class="section section--red section-secondary">
-                            <div class="section__block">
-                                <a class="section__figure" href="work.html">
-                                    <img class="section__image" src="img/kg.jpg" alt="" />
-                                    <div class="section__figcaption">
-                                        <div class="section__text">
-                                            <h3 class="section__subtitle">British footwear retailer</h3>
-                                            <h2 class="section__title">Kurt Geiger</h2>
-                                        </div>
-                                    </div>
-                                    
-                                </a>
-                            </div>
-                        </section>
-
                         <section class="section section--teal section-secondary">
                             <div class="section__block">
-                                <a class="section__figure" href="work.html">
-                                    <img class="section__image" src="img/links.jpg" alt="" />
+                                <a class="section__figure" href="links-of-london.php">
+                                    <img class="section__image" src="assets/build/links/links-home.jpg" alt="Links Of London Lifestyle Shot" />
                                     <div class="section__figcaption">
                                         <div class="section__text">
                                             <h3 class="section__subtitle">UK Jewellery Retail Chain</h3>
@@ -552,94 +507,36 @@
                                 </a>
                             </div>
                         </section>
-
-                        <section class="section section--green section-secondary">
+                        <section class="section section--orange section-secondary">
                             <div class="section__block">
-                                <a class="section__figure" href="work.html">
-                                    <img class="section__image" src="img/tlfk.jpg" alt="" />
+                                <a class="section__figure" href="follifollie.php">
+                                    <img class="section__image" src="assets/build/ff/ff-life-thin.jpg" alt="Folli Follie Lifestyle Shot" />
                                     <div class="section__figcaption">
                                         <div class="section__text">
-                                            <h3 class="section__subtitle">Raw vegan products</h3>
-                                            <h2 class="section__title">Living Food Kitchen</h2>
+                                            <h3 class="section__subtitle">European lifestyle brand</h3>
+                                            <h2 class="section__title">Folli Follie</h2>
                                         </div>
                                     </div>
-                                    
                                 </a>
                             </div>
                         </section>
-
-                        <section class="section section--cyan section-secondary">
+                        <section class="section section--blue section-secondary">
                             <div class="section__block">
-                                <a class="section__figure" href="work.html">
-                                    <img class="section__image" src="img/deezer.jpg" alt="" />
+                                <a class="section__figure" href="mercedes-benz.php">
+                                    <img class="section__image" src="assets/build/mb/mercedesbenz-home.jpg" alt="Mercedes-Benz" />
                                     <div class="section__figcaption">
                                         <div class="section__text">
-                                            <h3 class="section__subtitle">Music Streaming Service</h3>
-                                            <h2 class="section__title">Deezer</h2>
+                                            <h3 class="section__subtitle">Research &amp; Development NA</h3>
+                                            <h2 class="section__title">Mercedes-Benz</h2>
                                         </div>
                                     </div>
-                                    
                                 </a>
                             </div>
                         </section>
-
-                        <section id="contact" class="section section-primary section-contact">
-                            <div class="hey">
-                                <h2 class="section__title">Discuss <strong>project</strong> or <strong>contract</strong> work?</h2>
-                                <p><a class="button mail" href="mailto:info@davidkinloch.com"><i class="fa fa-envelope"></i> EMAIL ME</a></p>
-                                <p><a class="button phone" href="tel:+447798780881"><i class="fa fa-phone"></i> CALL ME</a></p>
-                                <p><a class="button cv" href="#"><i class="fa fa-file-text-o"></i> CV</a></p>
-                                <p><a class="button linkedin" href="#"><i class="fa fa-linkedin-square"></i> Linkedin</a></p>
-                            </div>
-                        </section>
-                        <footer class="wrapper site-footer">
-                            <div class="social">
-                            </div>
-                            <div class="credits">
-                                <small class="copyright">David Kinloch &copy; Copyright 2017</small>
-                            </div>
-                        </footer><!-- .site-footer -->
+                        <?php include('includes/contact.php'); ?>
+                        <?php include('includes/footer.php'); ?>
                     </div><!-- #wrapper -->
                 </div><!-- #main -->
-                    
         </div> <!-- #main-container -->
-            
-
-        <div class="loader loader--right">
-            <div class="preloader-wrapper-holder">
-                <div class="preloader-wrapper big active">
-                    <div class="spinner-layer">
-                        <div class="circle-clipper left">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="gap-patch">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="circle-clipper right">
-                            <div class="circle"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-
-        
-
-   <!--<script src="ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
-        <script src="js/build/production.min.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-         -->
-    </body>
-</html>
+        <?php include('includes/loader--right.php'); ?>
+<?php include('includes/end.php'); ?>  

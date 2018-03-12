@@ -38,6 +38,15 @@
 		    -ms-transform: skew(30deg);
 		    -o-transform: skew(30deg);
 		    @include transition (left .3s ease-in-out .6s);
+		    .teal & {
+		    	background: $teal;
+		    }
+		    .orange & {
+		    	background: $orange;
+		    }
+		    .blue & {
+		    	background: $blue;
+		    }
 		    @include mq(wide) {
 				left: calc(-100vw - 648px);
 		    }
@@ -93,6 +102,9 @@
 				content: "";
 				padding-left: 0;
 			}
+		}
+		a {
+			color: $teal;
 		}
 
 	}

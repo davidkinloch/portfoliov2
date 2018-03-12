@@ -142,83 +142,37 @@ $(function() {
       document.location.href = url;
     }, 1500);
     e.preventDefault();
-  });  
-});
-
-
-/*
-
-$(function() {
-                     
-  $('.section').click(function() {
-    
-    $(".section").not(this).hide("500");
-    $(this).addClass('section--big');
   });
-    
-  $('.revert').click(function() { 
-      alert('test');
-      $(this).parent().removeClass('go-big');
-    	//$('.cell').show();
+
+  //scroll top of div into view
+  function isTopIntoView(elem) {
+      var docViewTop = $(window).scrollTop();
+      var docViewBottom = docViewTop + $(window).height();
+
+      var elemTop = $(elem).offset().top;
+
+
+      return (elemTop <= docViewBottom);
+  }
+
+  $(window).scroll(function () {
+    //bottom of div into veiw
+      $(".animation").each(function () {
+          if (isTopIntoView(this) === true) {
+              $(this).addClass('active');
+          }
+      });
   });
-      
+
+
 });
-
-*/
-
-/*
-$( ".section__figure", document.body ).click(function( e) {
-  var offset = $( this ).offset();
-  e.stopPropagation();
-  e.preventDefault();
-  $( "#result" ).text( this.tagName +
-    " coords ( " + offset.left + ", " + offset.top + ", " + offset.bottom + ", " + offset.right + "   )" );
-  $( this ).toggleClass('active');
-  $( this ).parent.animate({
-    opacity: 0.25,
-    left: "+ offset.left +"
-  }, 1500, function() {
-    // Animation complete.
-  });
-});
-
-//CAPTIONS
-  $('.thumbnails li').hover(function(){
-    $(".caption p", this).stop().fadeIn("slow");
-  }, function() {
-    $(".caption p", this).stop().fadeOut("fast");
-  });
-*/
-
-
-/*
-$( document ).ajaxComplete(function() {
-  var scroll = $(window).scrollTop();
-// yada
-  $('html').scrollTop(scroll);  
- 
-  
-  $('.main-container').remove(this);
-  setTimeout(function() {
-     window.scrollTo(0,0); 
-  }, 800);
-  setTimeout(function() {
-    $('.main-container.clone .main').addClass('active');
-  }, 1600);
-  
-});
-*/
-
-
-
-
  
 $( window ).on( "load", function() {
- // setTimeout(function() {
-
-    $('.work .main, .work-nav, .section-hero__down').addClass('active');
-  //   }, 600);
+  $('.work .main, .work-nav, .section-hero__down, .section-hero__inner').addClass('active');
 });
+
+
+
 
 
    
