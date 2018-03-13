@@ -470,7 +470,7 @@
                             </svg>
                             <div class="section-hero__inner">
                                 <h1 class="section-hero__title">
-                                    <span class="name">David Kinloch</span><br><span class="focus">eCommerce Focused</span><br><span class="role">UX Designer &amp; Developer</span>
+                                    <span class="name">David Kinloch</span><br><span class="focus">eCommerce focused</span><br><span class="role">UX Designer &amp; Developer</span>
                                 </h1>
                             </div>
                             <a href="#about" class="section-hero__down"><i class="fa fa-angle-down"></i></a>
