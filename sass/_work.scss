@@ -31,8 +31,12 @@
 	}
 	.section__imageholder {
 		opacity: 0;
+		margin-bottom: 20px;
 		@include transition (all .3s ease-in .1s);
-		@include transform (translate(0px, -50px));
+		@include transform (translate(0px, -50px));	
+		@include mq(desktop) {
+			margin-bottom: 2.5vw;
+		}
 	}
 	.section-header__h1 {
 		opacity: 0;
@@ -44,6 +48,16 @@
 		opacity: 0;
 		@include transition (all .3s ease-in 1.1s);
 		@include transform (translate(50px, 0px));
+		font-size: 14px;
+		p {
+			margin-bottom: 20px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		@include mq(tablet) {
+			font-size: 16px;
+		}
 	}
 	.section-header__list {
 		opacity: 0;
@@ -62,7 +76,12 @@
 		}
 		.section-header__h1 {
 			opacity: 1;
+			line-height: 1;
+			margin-bottom: 20px;
 			@include transform (translate(0px, 0px));
+			@include mq(tablet) {
+				margin-bottom: 2.5vw;
+			}
 			&:before {
 				left: -99.5vw;
 				@include mq(tablet) {
@@ -71,9 +90,12 @@
 			}
 			.section__title {
 				margin-left: 5vw;
+				line-height: 1;
 			}
 			.section__subtitle {
 				margin-left: 3vw;
+				margin-bottom: .6vw;
+				line-height: 1;
 			}
 		}
 		.section-header__intro, .section-header__list {

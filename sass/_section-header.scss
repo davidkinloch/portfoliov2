@@ -6,7 +6,7 @@
 	
 	}
 	&__header {
-		padding: 0 5vw 5vw;
+		padding: 0 5vw 0;
 		@include mq(wide) {
 			padding: 0 0 3%;
 			display: flex;
@@ -78,6 +78,7 @@
 		@include mq(tablet) {
 			display: block;
 			margin-bottom: 1.25vw;
+			padding: 0 5vw;
 		}
 	}
 	&__item {
@@ -113,7 +114,9 @@
 	}
 	&__intro {
 		text-align: justify;
+		padding: 0 5vw;
 		@include mq(wide) {
+			padding-left: 0;
 			padding-right: calc(50vw - 648px);
 			width: 50%;
 			font-size: 20rem;
