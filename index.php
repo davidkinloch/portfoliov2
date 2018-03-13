@@ -478,7 +478,7 @@
                         <!-- end of hero -->
                         <section id="about" class="section section-primary section-about">
                             <div class="section-about__block">
-                               <h2 class="section-about__text">Experienced <strong>front-end developer</strong> and <strong>UX designer</strong> focusing on eCommerce &amp; responsive web applications. Consulting on best practices, code quality, <strong>improving user experience &amp; conversion rates</strong>.</h2>
+                               <h2 class="section-about__text">Experienced <strong>front-end developer</strong> and <strong>UX designer</strong> focusing on eCommerce &amp; responsive web applications. Consulting on best practices, code quality, <strong>user experience </strong>&amp; <strong>increasing conversion rates</strong>.</h2>
                             </div>
                         </section>
                         <section id="work" class="section section--yellow section-secondary">
