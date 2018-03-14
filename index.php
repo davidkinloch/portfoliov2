@@ -484,7 +484,7 @@
                         <section id="work" class="section section--yellow section-secondary">
                             <div class="section__block">
                                 <a class="section__figure" href="cat-footwear">
-                                    <img class="section__image" src="assets/build/cat/cat-home.jpg" alt="CAT Footwear Colorado Boot" />
+                                    <img class="section__image" data-src="assets/build/cat/cat-home.jpg" alt="CAT Footwear Colorado Boot" />
                                     <div class="section__figcaption">
                                         <div class="section__text">
                                             <h3 class="section__subtitle">Iconic Footwear Brand</h3>
@@ -497,7 +497,7 @@
                         <section class="section section--teal section-secondary">
                             <div class="section__block">
                                 <a class="section__figure" href="links-of-london">
-                                    <img class="section__image" src="assets/build/links/links-home.jpg" alt="Links Of London Lifestyle Shot" />
+                                    <img class="section__image" data-src="assets/build/links/links-home.jpg" alt="Links Of London Lifestyle Shot" />
                                     <div class="section__figcaption">
                                         <div class="section__text">
                                             <h3 class="section__subtitle">UK Jewellery Retail Chain</h3>
@@ -510,7 +510,7 @@
                         <section class="section section--orange section-secondary">
                             <div class="section__block">
                                 <a class="section__figure" href="follifollie">
-                                    <img class="section__image" src="assets/build/ff/ff-life-thin.jpg" alt="Folli Follie Lifestyle Shot" />
+                                    <img class="section__image" data-src="assets/build/ff/ff-life-thin.jpg" alt="Folli Follie Lifestyle Shot" />
                                     <div class="section__figcaption">
                                         <div class="section__text">
                                             <h3 class="section__subtitle">European lifestyle brand</h3>
@@ -523,7 +523,7 @@
                         <section class="section section--blue section-secondary">
                             <div class="section__block">
                                 <a class="section__figure" href="mercedes-benz">
-                                    <img class="section__image" src="assets/build/mb/mercedesbenz-home.jpg" alt="Mercedes-Benz" />
+                                    <img class="section__image" data-src="assets/build/mb/mercedesbenz-home.jpg" alt="Mercedes-Benz" />
                                     <div class="section__figcaption">
                                         <div class="section__text">
                                             <h3 class="section__subtitle">Research &amp; Development NA</h3>
