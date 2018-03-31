@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <title>David Kinloch UX Designer &am; Developer</title>
-        <meta name="description" content="Experienced front-end developer and UX designer focusing on eCommerce, Magento &amp; Responsive Web App Design. Consulting larger teams on best practices, code quality, improving user experience & conversion rates.">
+        <meta name="description" content="Experienced front-end developer and UX designer focusing on eCommerce, Magento & Responsive Web App Design. Consulting larger teams on best practices, code quality, improving user experience & conversion rates.">
         <?php include ('includes/header.php'); ?>
     </head>
     <body>
