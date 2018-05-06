@@ -74,25 +74,25 @@
                 <div class="wrapper--skinny">
                     <div class="section section-primary">
                         <figure class="section__block">
-                            <img class="section__image" src="assets/build/cat/cat01.png" alt="Cat Footwear Screenshot 01" />
+                            <img class="section__image lazy" data-src="assets/build/cat/cat01.png" alt="Cat Footwear Screenshot 01" />
                         </figure>
                     </div>
 
                     <div class="section section-primary animation">
                         <div class="section__block">
-                            <img class="section__image" src="assets/build/cat/cat02.png" alt="Cat Footwear Screenshot 02" />
+                            <img class="section__image lazy" data-src="assets/build/cat/cat02.png" alt="Cat Footwear Screenshot 02" />
                         </div>
                     </div>
 
                     <div class="section section-primary animation">
                         <div class="section__block">
-                            <img class="section__image section__image--full" src="assets/build/cat/25Colorado-Celebrating-25-Years-of-CAT-Colorado-Boots.jpg" alt="Cat Footwear Screenshot 03" />
+                            <img class="section__image section__image--full lazy" data-src="assets/build/cat/25Colorado-Celebrating-25-Years-of-CAT-Colorado-Boots.jpg" alt="Cat Footwear Screenshot 03" />
                         </div>
                     </div>
 
                     <div class="section section-primary animation">
                         <div class="section__block">
-                            <img class="section__image" src="assets/build/cat/cat06.png" alt="Cat Footwear Screenshot 04" />
+                            <img class="section__image lazy" data-src="assets/build/cat/cat06.png" alt="Cat Footwear Screenshot 04" />
                         </div>
                     </div>
 
