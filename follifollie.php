@@ -68,7 +68,7 @@
                              <div class="section-header__intro">
                                 <p>Folli Follie appreciated the UX work for their sister company Links of London, where we worked on new layouts and experiences for the Euro fashion label.</p>
 
-                                <p>I produced LowFi HTML / CSS / jQuery wireframes &amp; static HiFi mock-ups  and once signed off, created the key front-end templates. Simplifying the filtering process, adding visual cues to search functionality and creating a progressive responsive solution. These were then integrated into the live site.</p>
+                                <p>I produced LowFi HTML / CSS / jQuery wireframes &amp; static HiFi mock-ups  and once signed off, created the key front-end templates. Simplifying the filtering process, adding visual cues to search functionality, and creating a progressive responsive solution. These were then integrated into the live site.</p>
                            </div>
                         </div>
                     </section>

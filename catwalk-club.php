@@ -70,7 +70,7 @@
                                 <p>Independant, privately funded online luxury handbag rental company, Catwalk Club had an unfortunate launch that synced with Covid</p>
                                 <p>Intial tasks such as persona creation were relatively straight forward and using insight from the founder we identified the key demographic and personified her to help.</p>
                                 <p>Creating an engaging rental system that had some critical steps for security was an enjoyable challenge in this project.</p>
-                                <p>Due to the intense interest of criminal parties in luxury handbags we integrated a third-party face recognisation & passport application so that we could automate the onboarding of visitors into members - without leaving the rental flow.</p>
+                                <p>Due to the intense interest of criminal parties in luxury handbags we integrated a third-party face &amp; passport recognition application so that we could automate the onboarding of visitors into members - without leaving the rental flow.</p>
                                 <p>
                            </div>
                         </div>

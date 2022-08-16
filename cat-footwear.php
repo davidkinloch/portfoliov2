@@ -65,9 +65,9 @@
                             </div>
 
                              <div class="section-header__intro">
-                                <p>One of the most famous boots in the world had a 25th Annviersary, working with PD3, I helped create a website to celebrate.</p>
+                                <p>One of the most famous boots in the world had a 25th Anniversary, working with PD3, I helped create a website to celebrate.</p>
                                 <p>Intending to showcase unique customisations to engage users with social media, we had to ensure the brand aesthetics were adhered to while allowing the expression of the individual artists were shown.</p>
-                                <p>From initial responsive wireframing to frontend template development, a custom Woprdress theme & deployment I worked through the entire project.</p>
+                                <p>From initial responsive wireframing to frontend template development, a custom WordPress theme & deployment I worked through the entire project.</p>
                            </div>
                         </div>
                     </section>

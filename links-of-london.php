@@ -66,10 +66,10 @@
                                 </ul>
                             </div>
                              <div class="section-header__intro">
-                                <p>British jewellery brand Links of London approached me to consultant on improving the usability of their website ultimately to increase their conversion rates.</p>
-                                <p>My first step was to rework their static designs supplied by a third party for a site red-design. I added key e-commerce features and revamped their user interface.</p> 
+                                <p>British jewellery brand Links of London approached me to consult on improving the usability of their website ultimately increasing their conversion rates.</p>
+                                <p>My first step was to rework their static designs supplied by a third party for a site re-design. I added key e-commerce features and revamped their user interface.</p> 
                                 <p>Key areas of concern were Product Listing, Product Detail, and checkout pages. Using copy &amp; visual cues, outlining the checkout process &amp; optimising the experience for mobile users were utilised to improve the user journey.</p>
-                                <p>I was also put in charge of quality checking front-end development from a third party development team. The results were faster loading speeds, improved semantics, increased in-page SEO and higher natural organic search results.</p>
+                                <p>I was also put in charge of quality checking front-end development from a third-party development team. The results were faster loading speeds, improved semantics, increased in-page SEO, and higher natural organic search results.</p>
                            </div>
                         </div>
                     </section>

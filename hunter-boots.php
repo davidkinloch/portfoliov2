@@ -68,11 +68,11 @@
                                 </ul>
                             </div>
                              <div class="section-header__intro">
-                                <p>Festival favourite Hunter Boots is a British footwear manufacturer famous for their Wellington Boots</p>
+                                 <p>Festival favourite Hunter Boots is a British footwear manufacturer famous for their Wellington Boots</p>
                                 <p>I was placed in the eCommerce team working in conjunction with the branding &amp; development teams to overhaul key sections &amp; user journeys of the Hunter website.</p>
                                 <p>These were not just from the eCommerce teams' hitlist of new features, but discovering issues from data gathered by user testing, heat mapping &amp; user feedback.</p>
                                 <p>Once features that needed work were detailed static mock-ups were created and then interactive prototypes were produced.</p>
-                                <p>Clear communication channels and orgnaised feedback in this project were key to finding the balance between the often opposing forces of eCommerce, Branding &amp; Development teams.</p>
+                                <p>Clear communication channels and organised feedback in this project were key to finding the balance between the often opposing forces of eCommerce, Branding &amp; Development teams.</p>
                                 <p>A/B testing was carried out where we were improving key features such as PDP elements to ensure the designs had a positive impact</p>
                                 <p>One of the core new features added was key &amp; collect functionality and social proofing while existing key elements improvements were:
                                   <ul>
