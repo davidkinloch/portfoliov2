@@ -33,6 +33,11 @@ img {
 	width: 100%;
 }
 
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
 .main {
 	//@include container;
 	width: 100%;

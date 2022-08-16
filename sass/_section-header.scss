@@ -47,6 +47,15 @@
 		    .blue & {
 		    	background: $blue;
 		    }
+        .red & {
+            background: $red;
+        }
+        .red2 & {
+            background: $red2;
+        }
+        .pink & {
+            background: $pink;
+        }
 		    @include mq(wide) {
 				left: calc(-100vw - 648px);
 		    }

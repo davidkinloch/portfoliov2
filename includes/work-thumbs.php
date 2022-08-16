@@ -1,4 +1,15 @@
 <ul class="work-nav__thumbs">
+    <li class="work-nav__project red">
+        <a class="work-nav__projectlink" href="cat-footwear">
+           <div class="work-nav__image-wrap">
+                <img class="section__image" src="assets/build/cat/cat-home.jpg" alt="CAT Footwear" />
+            </div>
+            <div class="section__text">
+                <h3 class="section__subtitle">The Wellington Brand</h3>
+                <h2 class="section__title">Hunter Boots</h2>
+            </div>
+        </a>
+    </li>
     <li class="work-nav__project yellow">
         <a class="work-nav__projectlink" href="cat-footwear">
            <div class="work-nav__image-wrap">

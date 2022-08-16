@@ -5,11 +5,11 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>Links of London | UK Jewellery Chain</title>
+        <title>Hunter Boots | The Wellington Brand</title>
         <meta name="description" content="">
         <?php include ('includes/header.php'); ?>
     </head>
-    <body class="work teal">
+    <body class="work red">
         <div class="header-container">
             <header class="wrapper site-header">
                  <nav class="nav-primary">
@@ -22,7 +22,7 @@
         <div class="work-nav">
             <ul class="work-nav__list">
                 <li class="work-nav__item">
-                    <a href="hunter-boots" class="work-nav__link work-nav__link--prev">
+                    <a href="follifollie" class="work-nav__link work-nav__link--prev">
                         <i class="fa fa-angle-left"></i> 
                         <span class="text">Previous</span>
                     </a>
@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li class="work-nav__item">
-                    <a href="cat-footwear" class="work-nav__link work-nav__link--next">
+                    <a href="links-of-london" class="work-nav__link work-nav__link--next">
                         <span class="text">Next</span>
                         <i class="fa fa-angle-right"></i> 
                     </a>
@@ -47,29 +47,42 @@
                 
                 <div class="wrapper">
                     <section class="section section-primary section-header">
-                        <div class="section__imageholder" style="background-image:url(assets/build/links/links-hero.jpg);">
+                        <div class="section__imageholder" style="background-image:url(assets/build/hunter/hunter-boots-hero.jpg);">
                         </div>
                  
                         <div class="section-header__header">
                             <div class="section-header__details">
                                 <h1 class="section-header__h1">
-                                    <span class="section__subtitle">UK Jewellery Retail Chain</span><Br>
-                                    <span class="section__title">Links of London</span>                        
+                                    <span class="section__subtitle">The Wellington Brand</span><Br>
+                                    <span class="section__title">Hunter Boots</span>                        
                                 </h1>
                                 <ul class="section-header__list">
                                     <li class="section-header__item section-header__item--title"><strong>The Essentials</strong></li>
                                     <li class="section-header__item">UX</li>
                                     <li class="section-header__item">UI</li>
+                                    <li class="section-header__item">User Research</li>
                                     <li class="section-header__item">Prototyping</li>
-                                    <li class="section-header__item">Frontend</li>
+                                    <li class="section-header__item">A/B Testing</li>
+                                    <li class="section-header__item">Social Proofing</li>
                                     <li class="section-header__item">eCommerce</li>
                                 </ul>
                             </div>
                              <div class="section-header__intro">
-                                <p>British jewellery brand Links of London approached me to consultant on improving the usability of their website ultimately to increase their conversion rates.</p>
-                                <p>My first step was to rework their static designs supplied by a third party for a site red-design. I added key e-commerce features and revamped their user interface.</p> 
-                                <p>Key areas of concern were Product Listing, Product Detail, and checkout pages. Using copy &amp; visual cues, outlining the checkout process &amp; optimising the experience for mobile users were utilised to improve the user journey.</p>
-                                <p>I was also put in charge of quality checking front-end development from a third party development team. The results were faster loading speeds, improved semantics, increased in-page SEO and higher natural organic search results.</p>
+                                <p>Festival favourite Hunter Boots is a British footwear manufacturer famous for their Wellington Boots</p>
+                                <p>I was placed in the eCommerce team working in conjunction with the branding &amp; development teams to overhaul key sections &amp; user journeys of the Hunter website.</p>
+                                <p>These were not just from the eCommerce teams' hitlist of new features, but discovering issues from data gathered by user testing, heat mapping &amp; user feedback.</p>
+                                <p>Once features that needed work were detailed static mock-ups were created and then interactive prototypes were produced.</p>
+                                <p>Clear communication channels and orgnaised feedback in this project were key to finding the balance between the often opposing forces of eCommerce, Branding &amp; Development teams.</p>
+                                <p>A/B testing was carried out where we were improving key features such as PDP elements to ensure the designs had a positive impact</p>
+                                <p>One of the core new features added was key &amp; collect functionality and social proofing while existing key elements improvements were:
+                                  <ul>
+                                      <li>PLP</li>
+                                      <li>PDP</li>
+                                      <li>Mobile checkout</li>
+                                      <li>Site navigation</li>
+                                      <li>User accounts and RMA</li>
+                                  </ul>
+                                </p>
                            </div>
                         </div>
                     </section>
@@ -77,37 +90,42 @@
                 <div class="wrapper--skinny">
                     <div class="section section-primary">
                         <figure class="section__block">
-                            <img class="section__image" src="assets/build/links/links-00-alt.png" alt="Links Of London Screenshot 01" />
+                            <img class="section__image" src="assets/build/hunter/hunter00.png" alt="Hunter Boots Screenshot 00" />
                         </figure>
                     </div>
 
                     <div class="section section-primary animation">
                         <div class="section__block">
-                            <img class="section__image" src="assets/build/links/Links-01.png" alt="Links Of London  Screenshot 02" />
+                            <img class="section__image" src="assets/build/hunter/hunter01.png" alt="Links Of London  Screenshot 01" />
                         </div>
                     </div>
 
                     <div class="section section-primary animation">
                         <div class="section__block">
-                            <img class="section__image" src="assets/build/links/links-02.png" alt="Links Of London Screenshot 03" />
+                            <img class="section__image" src="assets/build/hunter/hunter02.png" alt="Hunter Boots Screenshot 02" />
                         </div>
                     </div>
 
                     <div class="section section-primary animation">
                         <div class="section__block">
-                            <img class="section__image" src="assets/build/links/links03.png" alt="Links Of London Screenshot 03" />
+                            <img class="section__image" src="assets/build/hunter/hunter04.png" alt="Hunter Boots Screenshot 04" />
                         </div>
                     </div>
                     
                     <div class="section section-primary animation">
                         <div class="section__block">
-                            <img class="section__image section__image--full" src="assets/build/links/links-05.jpg" alt="Links Of London Screenshot 05" />
+                            <img class="section__image section__image--full" src="assets/build/hunter/hunter05.png" alt="Hunter Boots Screenshot 05" />
                         </div>
                     </div>
 
                     <div class="section section-primary animation">
                         <div class="section__block">
-                            <img class="section__image section__image--full" src="assets/build/links/links-06.jpg" alt="Links Of London  Screenshot 06" />
+                            <img class="section__image section__image--full" src="assets/build/hunter/hunter06-alt.png" alt="Hunter Boots  Screenshot 06" />
+                        </div>
+                    </div>
+                    <div class="section section-primary animation">
+                        <div class="section__block">
+                            <img class="section__image section__image--full" src="assets/build/hunter/hunter07-alt.png" alt="Hunter Boots Screenshot 07" />
                         </div>
                     </div>
 

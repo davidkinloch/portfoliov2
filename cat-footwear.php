@@ -22,7 +22,7 @@
         <div class="work-nav">
             <ul class="work-nav__list">
                 <li class="work-nav__item">
-                    <a href="mercedes-benz" class="work-nav__link work-nav__link--prev">
+                    <a href="links-of-london" class="work-nav__link work-nav__link--prev">
                         <i class="fa fa-angle-left"></i> 
                         <span class="text">Previous</span>
                     </a>
@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li class="work-nav__item">
-                    <a href="links-of-london" class="work-nav__link work-nav__link--next">
+                    <a href="catwalk-club" class="work-nav__link work-nav__link--next">
                         <span class="text">Next</span>
                         <i class="fa fa-angle-right"></i> 
                     </a>
@@ -66,7 +66,8 @@
 
                              <div class="section-header__intro">
                                 <p>One of the most famous boots in the world had a 25th Annviersary, working with PD3, I helped create a website to celebrate.</p>
-                                <p>From initial responsive wireframing to frontend templates and a custom Woprdress theme with deployment to live.</p>
+                                <p>Intending to showcase unique customisations to engage users with social media, we had to ensure the brand aesthetics were adhered to while allowing the expression of the individual artists were shown.</p>
+                                <p>From initial responsive wireframing to frontend template development, a custom Woprdress theme & deployment I worked through the entire project.</p>
                            </div>
                         </div>
                     </section>

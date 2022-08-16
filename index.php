@@ -53,63 +53,113 @@
                             <a href="#about" class="section-hero__down"><i class="fa fa-angle-down"></i></a>
                         </section>
                         <!-- end of hero -->
+                        
                         <section id="about" class="section section-primary section-about">
                             <div class="section-about__block">
                                <h2 class="section-about__text">Experienced <strong>front-end developer</strong> and <strong>UX designer</strong> focusing on eCommerce &amp; responsive web applications. Consulting on best practices, code quality, <strong>user experience </strong>&amp; <strong>increasing conversion rates</strong>.</h2>
                             </div>
                         </section>
-                        <section id="work" class="section section--yellow section-secondary">
-                            <div class="section__block">
-                                <a class="section__figure" href="cat-footwear">
-                                    <img class="section__image lazy" data-src="assets/build/cat/cat-home.jpg" alt="CAT Footwear Colorado Boot" />
-                                    <div class="section__figcaption">
-                                        <div class="section__text">
-                                            <h3 class="section__subtitle">Iconic Footwear Brand</h3>
-                                            <h2 class="section__title">CAT Footwear</h2>
+                        <div class="flex-wrap">
+                            <section id="work" class="section section--red section-secondary">
+                                <div class="section__block">
+                                    <a class="section__figure" href="hunter-boots">
+                                        <img class="section__image lazy" data-src="assets/build/hunter/hunter-boots-home.jpg" alt="Hunter Boots" />
+                                        <div class="section__figcaption">
+                                            <div class="section__text">
+                                                <h3 class="section__subtitle">The Wellington Brand</h3>
+                                                <h2 class="section__title">Hunter Boots</h2>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </section>
-                        <section class="section section--teal section-secondary">
-                            <div class="section__block">
-                                <a class="section__figure" href="links-of-london">
-                                    <img class="section__image lazy" data-src="assets/build/links/links-home.jpg" alt="Links Of London Lifestyle Shot" />
-                                    <div class="section__figcaption">
-                                        <div class="section__text">
-                                            <h3 class="section__subtitle">UK Jewellery Retail Chain</h3>
-                                            <h2 class="section__title">Links of London</h2>
+                                    </a>
+                                </div>
+                            </section>
+
+                             <section class="section section--teal section-secondary">
+                                <div class="section__block">
+                                    <a class="section__figure" href="links-of-london">
+                                        <img class="section__image lazy" data-src="assets/build/links/links-home.jpg" alt="Links Of London Lifestyle Shot" />
+                                        <div class="section__figcaption">
+                                            <div class="section__text">
+                                                <h3 class="section__subtitle">UK Jewellery Retail Chain</h3>
+                                                <h2 class="section__title">Links of London</h2>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </section>
-                        <section class="section section--orange section-secondary">
-                            <div class="section__block">
-                                <a class="section__figure" href="follifollie">
-                                    <img class="section__image lazy" data-src="assets/build/ff/ff-life-thin.jpg" alt="Folli Follie Lifestyle Shot" />
-                                    <div class="section__figcaption">
-                                        <div class="section__text">
-                                            <h3 class="section__subtitle">European lifestyle brand</h3>
-                                            <h2 class="section__title">Folli Follie</h2>
+                                    </a>
+                                </div>
+                            </section>
+
+                            <section class="section section--yellow section-secondary">
+                                <div class="section__block">
+                                    <a class="section__figure" href="cat-footwear">
+                                        <img class="section__image lazy" data-src="assets/build/cat/cat-home.jpg" alt="CAT Footwear Colorado Boot" />
+                                        <div class="section__figcaption">
+                                            <div class="section__text">
+                                                <h3 class="section__subtitle">Iconic Footwear Brand</h3>
+                                                <h2 class="section__title">CAT Footwear</h2>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </section>
-                        <section class="section section--blue section-secondary">
-                            <div class="section__block">
-                                <a class="section__figure" href="mercedes-benz">
-                                    <img class="section__image lazy" data-src="assets/build/mb/mercedesbenz-home.jpg" alt="Mercedes-Benz" />
-                                    <div class="section__figcaption">
-                                        <div class="section__text">
-                                            <h3 class="section__subtitle">Research &amp; Development NA</h3>
-                                            <h2 class="section__title">Mercedes-Benz</h2>
+                                    </a>
+                                </div>
+                            </section>
+                            
+                            <section id="work" class="section section--pink section-secondary">
+                                <div class="section__block">
+                                    <a class="section__figure" href="catwalk-club">
+                                        <img class="section__image lazy" data-src="assets/build/cc/catwalk-club-home.jpg" alt="Catwalk Club" />
+                                        <div class="section__figcaption">
+                                            <div class="section__text">
+                                                <h3 class="section__subtitle">Luxury Handbag Rentals</h3>
+                                                <h2 class="section__title">Catwalk Club</h2>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </section>
+                                    </a>
+                                </div>
+                            </section>     
+
+                            <section class="section section--red2 section-secondary">
+                                <div class="section__block">
+                                    <a class="section__figure" href="planetspace">
+                                        <img class="section__image lazy" data-src="assets/build/ps/planetspace-home.jpg" alt="Planetspace" />
+                                        <div class="section__figcaption">
+                                            <div class="section__text">
+                                                <h3 class="section__subtitle">Spanish Storage Facilities</h3>
+                                                <h2 class="section__title">Planetspace</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </section>                  
+
+                            <section class="section section--orange section-secondary">
+                                <div class="section__block">
+                                    <a class="section__figure" href="follifollie">
+                                        <img class="section__image lazy" data-src="assets/build/ff/ff-life-thin.jpg" alt="Folli Follie Lifestyle Shot" />
+                                        <div class="section__figcaption">
+                                            <div class="section__text">
+                                                <h3 class="section__subtitle">European lifestyle brand</h3>
+                                                <h2 class="section__title">Folli Follie</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </section>
+
+
+                           <!--  
+                            <section class="section section--blue section-secondary">
+                                <div class="section__block">
+                                    <a class="section__figure" href="mercedes-benz">
+                                        <img class="section__image lazy" data-src="assets/build/mb/mercedesbenz-home.jpg" alt="Mercedes-Benz" />
+                                        <div class="section__figcaption">
+                                            <div class="section__text">
+                                                <h3 class="section__subtitle">Research &amp; Development NA</h3>
+                                                <h2 class="section__title">Mercedes-Benz</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </section> -->
+                        </div>
                         <?php include('includes/contact.php'); ?>
                         <?php include('includes/footer.php'); ?>
                     </div><!-- #wrapper -->

@@ -158,6 +158,15 @@
 	}
 }
 
+.section--red2 {
+  .section__figcaption:before {
+    background: $red2;
+  }
+  .section__figcaption:after, .section__figure:before  {
+    background: $red2-300;
+  }
+}
+
 .section--yellow {
 	.section__text {
 		color: #555;
@@ -168,6 +177,18 @@
 	.section__figcaption:after, .section__figure:before  {
 		background: $yellow-300;
 	}
+}
+
+.section--pink {
+  .section__text {
+    color: #555;
+  }
+  .section__figcaption:before {
+    background: $pink;
+  }
+  .section__figcaption:after, .section__figure:before  {
+    background: $pink-300;
+  }
 }
 
 .section--green {

@@ -22,7 +22,7 @@
         <div class="work-nav">
             <ul class="work-nav__list">
                 <li class="work-nav__item">
-                    <a href="links-of-london" class="work-nav__link work-nav__link--prev">
+                    <a href="planetspace" class="work-nav__link work-nav__link--prev">
                         <i class="fa fa-angle-left"></i> 
                         <span class="text">Previous</span>
                     </a>
@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li class="work-nav__item">
-                    <a href="mercedes-benz" class="work-nav__link work-nav__link--next">
+                    <a href="hunter-boots" class="work-nav__link work-nav__link--next">
                         <span class="text">Next</span>
                         <i class="fa fa-angle-right"></i> 
                     </a>
@@ -58,6 +58,7 @@
                                 </h1>
                                 <ul class="section-header__list">
                                     <li class="section-header__item section-header__item--title"><strong>The Essentials</strong></li>
+                                    <li class="section-header__item">UX</li>
                                     <li class="section-header__item">Prototyping</li>
                                     <li class="section-header__item">Frontend</li>
                                     <li class="section-header__item">eCommerce</li>
@@ -65,9 +66,9 @@
                             </div>
 
                              <div class="section-header__intro">
-                                <p>Folli Follie appreciated the UX work for their sister company Links of London, so much so, they asked me to do some work for them too. They wanted me to manage a smooth migration of the Links of London layouts across to their site.</p>
-                                <p>This made perfect sense for the Follie Follie website, as it meant they didn’t need an entire redesign of their brand.</p>
-                                <p>I created some mock-ups in Photoshop and once signed off I created the key front-end templates. These were then integrated into the live site.</p>
+                                <p>Folli Follie appreciated the UX work for their sister company Links of London, where we worked on new layouts and experiences for the Euro fashion label.</p>
+
+                                <p>I produced some  LowFi HTML / CSS / jQuery wireframes &amp; static HiFi mock-ups  and once signed off, created the key front-end templates. Simplifying the filtering process, adding visual cues to search functionality and creating a progressive responsive solution. These were then integrated into the live site.</p>
                            </div>
                         </div>
                     </section>
@@ -75,7 +76,7 @@
                 <div class="wrapper--skinny">
                     <div class="section section-primary">
                         <figure class="section__block">
-                            <img class="section__image" src="assets/src/ff/follifollie-01.png" alt="Folli Follie Screenshot 01" />
+                            <img class="section__image" src="assets/build/ff/follifollie-01.png" alt="Folli Follie Screenshot 01" />
                         </figure>
                     </div>
 

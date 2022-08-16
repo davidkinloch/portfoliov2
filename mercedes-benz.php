@@ -58,6 +58,7 @@
                                 </h1>
                                 <ul class="section-header__list">
                                     <li class="section-header__item section-header__item--title"><strong>The Essentials</strong></li>
+                                    <li class="section-header__item">Responsive UI</li>
                                     <li class="section-header__item">Frontend</li>
                                     <li class="section-header__item">Git</li>
                                     <li class="section-header__item">Wordpress Theme</li>
@@ -67,7 +68,8 @@
                              <div class="section-header__intro">
                                 <p>Working on an enterprise level Wordpress development for one of the world's greatest car manufacturers to showcase how they keep ahead in automotive technology and vehicle design.</p>
                                 <p>Pulling together the latest news and upsdates from the various North American campuses where the core research in new technology for car development is undertaken.</p>
-                                <p>Working alongisde Text100 on the frontend development &amp; Wordpress bespoke theme development.</p>
+                                <p>Working alongisde Text100 on implementing a mobile UI based upon desktop designs &amp; producing a bespoke Wordpress theme development</p>
+                                <p>The key to this project was ensuring a mobile-first solution was created, keeping all the functionality that was in the desktop designs provided.</p>
                            </div>
                         </div>
                     </section>
