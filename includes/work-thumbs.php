@@ -1,23 +1,12 @@
 <ul class="work-nav__thumbs">
     <li class="work-nav__project red">
-        <a class="work-nav__projectlink" href="cat-footwear">
+        <a class="work-nav__projectlink" href="hunter-boots">
            <div class="work-nav__image-wrap">
-                <img class="section__image" src="assets/build/cat/cat-home.jpg" alt="CAT Footwear" />
+                <img class="section__image" src="assets/build/hunter/hunter-boots-home.jpg" alt="Hunter Boots" />
             </div>
             <div class="section__text">
                 <h3 class="section__subtitle">The Wellington Brand</h3>
                 <h2 class="section__title">Hunter Boots</h2>
-            </div>
-        </a>
-    </li>
-    <li class="work-nav__project yellow">
-        <a class="work-nav__projectlink" href="cat-footwear">
-           <div class="work-nav__image-wrap">
-                <img class="section__image" src="assets/build/cat/cat-home.jpg" alt="CAT Footwear" />
-            </div>
-            <div class="section__text">
-                <h3 class="section__subtitle">Iconic Footwear Brand</h3>
-                <h2 class="section__title">CAT Footwear</h2>
             </div>
         </a>
     </li>
@@ -32,6 +21,39 @@
             </div>
         </a>
     </li>
+    <li class="work-nav__project yellow">
+        <a class="work-nav__projectlink" href="cat-footwear">
+           <div class="work-nav__image-wrap">
+                <img class="section__image" src="assets/build/cat/cat-home.jpg" alt="CAT Footwear" />
+            </div>
+            <div class="section__text">
+                <h3 class="section__subtitle">Iconic Footwear Brand</h3>
+                <h2 class="section__title">CAT Footwear</h2>
+            </div>
+        </a>
+    </li>
+    <li class="work-nav__project pink">
+        <a class="work-nav__projectlink" href="catwalk-club">
+           <div class="work-nav__image-wrap">
+                <img class="section__image" src="assets/build/cc/catwalk-club-home.jpg" alt="Catwalk Club" />
+            </div>
+            <div class="section__text">
+                <h3 class="section__subtitle">Luxury Handbag Rentals</h3>
+                <h2 class="section__title">Catwalk Club</h2>
+            </div>
+        </a>
+    </li>
+    <li class="work-nav__project red2">
+        <a class="work-nav__projectlink" href="planetspace">
+           <div class="work-nav__image-wrap">
+                <img class="section__image" src="assets/build/ps/planetspace-home.jpg" alt="Planetspace" />
+            </div>
+            <div class="section__text">
+                <h3 class="section__subtitle">Spanish Storage Facilities</h3>
+                <h2 class="section__title">Planetspace</h2>
+            </div>
+        </a>
+    </li>
     <li class="work-nav__project orange">
         <a class="work-nav__projectlink" href="follifollie">
            <div class="work-nav__image-wrap">
@@ -43,7 +65,7 @@
             </div>
         </a>
     </li>
-    <li class="work-nav__project blue">
+<!--     <li class="work-nav__project blue">
         <a class="work-nav__projectlink" href="mercedes-benz">
             <div class="work-nav__image-wrap">           
                 <img class="section__image" src="assets/build/mb/mercedesbenz-home.jpg" alt="Mercedes-Benz" />
@@ -53,5 +75,5 @@
                 <h2 class="section__title">Mercedes-Benz</h2>
             </div>
         </a>
-    </li>
+    </li> -->
 </ul>
