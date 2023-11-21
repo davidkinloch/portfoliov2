@@ -48,7 +48,13 @@
 		opacity: 0;
 		@include transition (all .3s ease-in 1.1s);
 		@include transform (translate(50px, 0px));
+		margin-bottom: 40px;
 		font-size: 14px;
+		h2 {
+			text-transform: none;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
 		p {
 			margin-bottom: 20px;
 			&:last-child {
@@ -56,7 +62,7 @@
 			}
 		}
     ul {
-      margin: 0 0 0 20px;
+      margin: 0 0 20px 20px;
       list-style: disc;
       li {
           padding: 0 0 0 20px;
@@ -119,3 +125,23 @@
 	}
 
 }
+
+.video--wrapper {
+			position: relative;
+  		width: 100%;
+  		overflow: hidden;
+  		padding-bottom: 	56.25%; 
+  		margin-bottom: 5vw;
+	}
+.video--embed {
+			position: absolute;
+		  top: 0;
+		  left: 0;
+		  bottom: 0;
+		  right: 0;
+		  width: 100%;
+		  height: 100%;
+		  border: none;
+	}
+
+

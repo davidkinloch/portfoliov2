@@ -11,6 +11,7 @@
     "grunt-contrib-watch": "^0.6.1"
   },
   "dependencies": {
+    "npm": "^10.2.4",
     "sass-mq": "^3.3.0-beta.1"
   }
 }

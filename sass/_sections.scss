@@ -131,6 +131,28 @@
 	} 
 }
 
+
+.section--blue2 {
+	.section__figcaption:before {
+		background: $blue2;
+	}
+	.section__figcaption:after, .section__figure:before {
+		background: $blue2-300;
+	}
+}
+
+.section--beige {
+	.section__text {
+    color: #333;
+  }
+	.section__figcaption:before {
+		background: $beige;
+	}
+	.section__figcaption:after, .section__figure:before {
+		background: $beige-300;
+	}
+}
+
 .section--orange {
 	.section__figcaption:before {
 		background: $orange;
@@ -169,7 +191,7 @@
 
 .section--yellow {
 	.section__text {
-		color: #555;
+		color: #333;
 	}
 	.section__figcaption:before {
 		background: $yellow;
@@ -181,7 +203,7 @@
 
 .section--pink {
   .section__text {
-    color: #555;
+    color: #333;
   }
   .section__figcaption:before {
     background: $pink;

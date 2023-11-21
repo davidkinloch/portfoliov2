@@ -60,6 +60,32 @@
                             </div>
                         </section>
                         <div class="flex-wrap">
+                            <section id="work" class="section section--blue section-secondary">
+                                <div class="section__block">
+                                    <a class="section__figure" href="seatplan.php">
+                                        <img class="section__image lazy" data-src="assets/build/sp/seatplan-home.jpg" alt="SeatPlan" />
+                                        <div class="section__figcaption">
+                                            <div class="section__text">
+                                                <h3 class="section__subtitle">Seat Scanner of Theatre Tickets</h3>
+                                                <h2 class="section__title">SeatPlan</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </section>
+                            <section id="work" class="section section--beige section-secondary">
+                                <div class="section__block">
+                                    <a class="section__figure" href="hunter-boots">
+                                        <img class="section__image lazy" data-src="assets/build/bh/bilden-home.png" alt="Bilde Home - Shopify Marketplace" />
+                                        <div class="section__figcaption">
+                                            <div class="section__text">
+                                                <h3 class="section__subtitle">Shopify Marketplace</h3>
+                                                <h2 class="section__title">Bilden Home</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </section>
                             <section id="work" class="section section--red section-secondary">
                                 <div class="section__block">
                                     <a class="section__figure" href="hunter-boots">
