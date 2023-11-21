@@ -101,6 +101,16 @@
         border-color: $pink;
       }
     }
+    &.blue2 {
+      .work-nav__image-wrap { 
+        border-color: $blue2;
+      }
+    }
+    &.beige {
+      .work-nav__image-wrap { 
+        border-color: $beige;
+      }
+    }
 		.section__text {
 			position: relative;
 			width: 100%;

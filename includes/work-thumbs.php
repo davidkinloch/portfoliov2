@@ -1,4 +1,27 @@
 <ul class="work-nav__thumbs">
+     <li class="work-nav__project blue2">
+        <a class="work-nav__projectlink" href="seatplan">
+           <div class="work-nav__image-wrap">
+                <img class="section__image" src="assets/build/sp/seatplan-home.jpg" alt="SeatPlan" />
+            </div>
+            <div class="section__text">
+                <h3 class="section__subtitle">Seat Scanner of Theatre Tickets</h3>
+                <h2 class="section__title">SeatPlan</h2>
+            </div>
+        </a>
+    </li>
+
+    <li class="work-nav__project beige">
+        <a class="work-nav__projectlink" href="bildenhome">
+           <div class="work-nav__image-wrap">
+                <img class="section__image" src="assets/build/bh/bilden-home.png" alt="Bilden Home" />
+            </div>
+            <div class="section__text">
+                <h3 class="section__subtitle">Shopify Marketplace</h3>
+                <h2 class="section__title">Bilden Home</h2>
+            </div>
+        </a>
+    </li>
     <li class="work-nav__project red">
         <a class="work-nav__projectlink" href="hunter-boots">
            <div class="work-nav__image-wrap">

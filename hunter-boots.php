@@ -22,7 +22,7 @@
         <div class="work-nav">
             <ul class="work-nav__list">
                 <li class="work-nav__item">
-                    <a href="follifollie" class="work-nav__link work-nav__link--prev">
+                    <a href="bildenhome" class="work-nav__link work-nav__link--prev">
                         <i class="fa fa-angle-left"></i> 
                         <span class="text">Previous</span>
                     </a>

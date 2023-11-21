@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li class="work-nav__item">
-                    <a href="links-of-london" class="work-nav__link work-nav__link--next">
+                    <a href="bildenhome" class="work-nav__link work-nav__link--next">
                         <span class="text">Next</span>
                         <i class="fa fa-angle-right"></i> 
                     </a>

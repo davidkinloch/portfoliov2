@@ -76,7 +76,7 @@
                             <section id="work" class="section section--beige section-secondary">
                                 <div class="section__block">
                                     <a class="section__figure" href="hunter-boots">
-                                        <img class="section__image lazy" data-src="assets/build/bh/bilden-home.png" alt="Bilde Home - Shopify Marketplace" />
+                                        <img class="section__image lazy" data-src="assets/build/bh/bilden-home.png" alt="Bilden Home - Shopify Marketplace" />
                                         <div class="section__figcaption">
                                             <div class="section__text">
                                                 <h3 class="section__subtitle">Shopify Marketplace</h3>

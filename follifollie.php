@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li class="work-nav__item">
-                    <a href="hunter-boots" class="work-nav__link work-nav__link--next">
+                    <a href="seatplan" class="work-nav__link work-nav__link--next">
                         <span class="text">Next</span>
                         <i class="fa fa-angle-right"></i> 
                     </a>
