@@ -62,7 +62,7 @@
                         <div class="flex-wrap">
                             <section id="work" class="section section--blue section-secondary">
                                 <div class="section__block">
-                                    <a class="section__figure" href="seatplan.php">
+                                    <a class="section__figure" href="seatplan">
                                         <img class="section__image lazy" data-src="assets/build/sp/seatplan-home.jpg" alt="SeatPlan" />
                                         <div class="section__figcaption">
                                             <div class="section__text">
@@ -75,7 +75,7 @@
                             </section>
                             <section id="work" class="section section--beige section-secondary">
                                 <div class="section__block">
-                                    <a class="section__figure" href="hunter-boots">
+                                    <a class="section__figure" href="bildenhome">
                                         <img class="section__image lazy" data-src="assets/build/bh/bilden-home.png" alt="Bilden Home - Shopify Marketplace" />
                                         <div class="section__figcaption">
                                             <div class="section__text">
